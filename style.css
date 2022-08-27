@@ -24,7 +24,7 @@ html {
 }
 
 
-.resume_experience_site a{
+.resume_experience_site li a{
   color:black;
   text-decoration-color : black;
 }
