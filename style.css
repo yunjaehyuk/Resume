@@ -4,16 +4,30 @@ body {
  margin:0;
 }
 html {
-  margin:130px 250px;
+  margin:80px 250px;
+ 
 }
 .resume {
  background-color: #FCCE4C;
- padding: 50px;
+ padding: 120px 120px;
+ padding-bottom: 450px;
  font-family: 'Open Sans', sans-serif;
 }
+
 .resume_skill{
-  margin-bottom:25px;
+  margin-bottom: 5px;
+  margin-left: 10px;
 }
+
 .resume_part {
-  margin-bottom: 35px;
+  margin-bottom: 25px;
+}
+
+
+.resume_experience_site a{
+  color:black;
+  text-decoration-color : black;
+}
+.resume_experience_site li {
+  margin-bottom: 10px;
 }
