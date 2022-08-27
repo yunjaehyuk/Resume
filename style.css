@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Libre+Baskerville:wght@700&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+body {
+ color:#1B1308;
+ margin:0;
+}
+html {
+  margin:130px 250px;
+}
+.resume {
+ background-color: #FCCE4C;
+ padding: 50px;
+ font-family: 'Open Sans', sans-serif;
+}
+.resume_skill{
+  margin-bottom:25px;
+}
+.resume_part {
+  margin-bottom: 35px;
+}
