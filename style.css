@@ -1,21 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Libre+Baskerville:wght@700&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Libre+Baskerville:wght@700&family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
 body {
- color:#1B1308;
- margin:0;
+  color: #1b1308;
+  margin: 0;
+}
+.resume_profile h1 {
+  font-size: 80px;
+  padding: 10px;
+  margin-bottom: 50px;
 }
 html {
-  margin:80px 250px;
- 
+  margin: 100px 130px;
 }
 .resume {
- background-color: #FCCE4C;
- padding: 120px 120px;
- padding-bottom: 450px;
- font-family: 'Open Sans', sans-serif;
+  background-color: #fcce4c;
+  padding: 120px 120px;
+  padding-bottom: 450px;
+  font-family: "Open Sans", sans-serif;
 }
-
-.resume_skill{
-  margin-bottom: 5px;
+.resume_skills {
+  display: flex;
+  position: relative;
+  left: 5px;
+}
+.resume_skillhead {
+  margin-bottom: 50px;
+  margin-right: 20px;
+}
+.resume_skill_highlights {
+  margin-top: 20px;
+}
+.resume_skill {
+  right: 10px;
+  margin-bottom: 10px;
   margin-left: 10px;
 }
 
@@ -23,10 +39,9 @@ html {
   margin-bottom: 25px;
 }
 
-
-.resume_experience_site li a{
-  color:black;
-  text-decoration-color : black;
+.resume_experience_site li a {
+  color: black;
+  text-decoration-color: black;
 }
 .resume_experience_site li {
   margin-bottom: 10px;
